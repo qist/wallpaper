@@ -1,12 +1,6 @@
-# Cloudflare Pages 配置
+# Cloudflare Pages 本地调试配置 (仅供本地预览 Functions 用)
 # 本地预览: npx wrangler pages dev .
-# 部署可用: npx wrangler pages deploy .
+# 线上部署无需 wrangler: CF Pages 构建命令留空 + 输出目录 / 即可自动识别
 name = "wallpaper"
 pages_build_output_dir = "."
 compatibility_date = "2026-08-15"
-
-# 说明: 根路由 / 由 functions/index.js 处理；/img/* 等静态资源由 CDN 直接服务
-# 访问 http://localhost:8788/ 即可看到随机壁纸
-
-# 重要: CF Pages 构建命令请用 `npx wrangler pages deploy .`
-# 或直接留空 (CF 会自动识别 Pages Functions + 静态资源)

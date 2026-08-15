@@ -40,6 +40,8 @@ CF Pages 是静态托管 + Pages Functions（支持 JS，运行在边缘网络�
    - **Production branch**：`main`（仓库默认分支）
 4. 部署完成后，访问站点根路径即返回随机图片。
 
+**线上演示站点：** https://wallpaper-1tg.pages.dev/
+
 ### 方式 B：Wrangler 本地预览 Functions
 
 ```bash

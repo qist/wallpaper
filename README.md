@@ -35,6 +35,8 @@ DEBUG=1 node server.js    # 开启访问日志
    - **Production branch**：`main`
 4. 部署完成后，访问站点根路径即返回随机图片
 
+**线上演示站点：** https://wallpaper-1tg.pages.dev/
+
 本地预览 Functions：
 
 ```bash

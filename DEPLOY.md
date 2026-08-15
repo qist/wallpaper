@@ -37,6 +37,7 @@ CF Pages 是静态托管 + Pages Functions（支持 JS，运行在边缘网络�
 3. 构建设置：
    - **Build command**：留空
    - **Build output directory**：`/`（根目录）
+   - **Production branch**：`main`（仓库默认分支）
 4. 部署完成后，访问站点根路径即返回随机图片。
 
 ### 方式 B：Wrangler 本地预览 Functions

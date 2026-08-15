@@ -1,0 +1,7 @@
+# Cloudflare Pages 本地调试配置 (wrangler)
+# 用法: npx wrangler pages dev . --binding ...  (或 npm i -g wrangler)
+name = "wallpaper"
+pages_build_output_dir = "."
+
+# 说明: 根路由 / 由 functions/index.js 处理；/img/* 等静态资源由 CDN 直接服务
+# 访问 http://localhost:8788/ 即可看到随机壁纸
